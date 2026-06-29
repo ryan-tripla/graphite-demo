@@ -1,4 +1,5 @@
 import { xmodule } from "./xmodule";
+import { another } from "./another";
 
 function some() {
     console.log("Hello World");
@@ -7,6 +8,7 @@ function some() {
     const z = x + y;
     console.log(z);
     xmodule();
+    another();
 }
 
 some();
